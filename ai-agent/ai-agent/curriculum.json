@@ -1,0 +1,173 @@
+{
+  "cohort": "AI Cohort · 31 days · 8 modules",
+  "modules": [
+    {
+      "n": 1,
+      "title": "Environment & Tooling",
+      "days": [1, 3]
+    },
+    {
+      "n": 2,
+      "title": "Data Foundations",
+      "days": [4, 6]
+    },
+    {
+      "n": 3,
+      "title": "Embeddings & Vector Search",
+      "days": [7, 10]
+    },
+    {
+      "n": 4,
+      "title": "LLM Core, Prompting & Fine-Tuning",
+      "days": [11, 15]
+    },
+    {
+      "n": 5,
+      "title": "Chatbot Application Build",
+      "days": [16, 20]
+    },
+    {
+      "n": 6,
+      "title": "Agentic AI & MCP",
+      "days": [21, 24]
+    },
+    {
+      "n": 7,
+      "title": "Evaluation, Security & Deployment",
+      "days": [25, 28]
+    },
+    {
+      "n": 8,
+      "title": "Production & Capstone",
+      "days": [29, 31]
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "VS Code & Python Environment Setup",
+      "type": "SETUP",
+      "tools": ["VS Code", "Python", "Pylance", "Virtual Environment"],
+      "objectives": ["Create and activate virtual environment", "Run and debug Python"]
+    },
+    {
+      "day": 3,
+      "title": "First AI Project, React Frontend & GitHub",
+      "type": "BUILD",
+      "tools": ["FastAPI", "React", "Vite", "Git"],
+      "objectives": ["Scaffold FastAPI backend", "Connect React frontend"]
+    },
+    {
+      "day": 4,
+      "title": "Reading & Processing Structured Data",
+      "type": "BUILD",
+      "tools": ["Pandas", "SQLite", "SQLAlchemy"],
+      "objectives": ["Clean structured CSV data", "Store processed data in SQLite"]
+    },
+    {
+      "day": 7,
+      "title": "Embeddings Explained",
+      "type": "AI_CORE",
+      "tools": ["Sentence Transformers", "OpenAI Embeddings", "Scikit-learn"],
+      "objectives": ["Convert text to vector embeddings", "Visualize clusters"]
+    },
+    {
+      "day": 8,
+      "title": "Vector Databases Overview",
+      "type": "BUILD",
+      "tools": ["ChromaDB", "Pinecone"],
+      "objectives": ["Role of vector DBs in RAG", "Compare ChromaDB and Pinecone"]
+    },
+    {
+      "day": 10,
+      "title": "The Retrieval & Matching Engine",
+      "type": "SHIP_IT",
+      "tools": ["SQLite", "ChromaDB", "Python"],
+      "objectives": ["Build query router for hybrid retrieval", "Deduplicate search results"]
+    },
+    {
+      "day": 11,
+      "title": "RAG End-to-End & LLM API Basics",
+      "type": "BUILD",
+      "tools": ["OpenAI SDK", "Ollama", "Groq"],
+      "objectives": ["Connect retrieval to LLM", "Create grounded prompts"]
+    },
+    {
+      "day": 12,
+      "title": "Prompt Engineering Fundamentals",
+      "type": "LEARN",
+      "tools": ["LLMs", "Prompt Templates"],
+      "objectives": ["Zero-shot, few-shot, and chain-of-thought", "Evaluate prompt performance"]
+    },
+    {
+      "day": 13,
+      "title": "Advanced Prompting: Function Calling & Structured Outputs",
+      "type": "BUILD",
+      "tools": ["OpenAI Function Calling", "Pydantic"],
+      "objectives": ["Define tool schemas", "Validate structured outputs with Pydantic"]
+    },
+    {
+      "day": 16,
+      "title": "Chatbot Backend & API Integration",
+      "type": "BUILD",
+      "tools": ["FastAPI", "SQLite"],
+      "objectives": ["Create /chat endpoint", "Implement session-based conversation management"]
+    },
+    {
+      "day": 18,
+      "title": "Full-Stack Integration & Streaming Responses",
+      "type": "BUILD",
+      "tools": ["FastAPI", "StreamingResponse", "Server-Sent Events"],
+      "objectives": ["Real-time streaming responses", "Handle interrupted requests"]
+    },
+    {
+      "day": 20,
+      "title": "Conversation Memory & Context Management",
+      "type": "SHIP_IT",
+      "tools": ["SQLite", "FastAPI", "Token Management"],
+      "objectives": ["Persist conversation history", "Manage token limits and summarization"]
+    },
+    {
+      "day": 21,
+      "title": "Agentic Frameworks: LangChain Agents & Tool Use",
+      "type": "BUILD",
+      "tools": ["LangChain", "ReAct"],
+      "objectives": ["Wrap capabilities as LangChain tools", "Build ReAct reasoning agent"]
+    },
+    {
+      "day": 22,
+      "title": "Multi-Agent Orchestration",
+      "type": "BUILD",
+      "tools": ["CrewAI", "LangGraph"],
+      "objectives": ["Create specialized domain agents", "Router agent delegation"]
+    },
+    {
+      "day": 23,
+      "title": "Model Context Protocol (MCP)",
+      "type": "BUILD",
+      "tools": ["MCP Python SDK", "Claude Desktop"],
+      "objectives": ["Build MCP server exposing tools", "Connect to MCP clients"]
+    },
+    {
+      "day": 28,
+      "title": "Docker & Kubernetes Deployment",
+      "type": "SHIP_IT",
+      "tools": ["Docker", "Kubernetes"],
+      "objectives": ["Containerize backend and frontend", "Deploy to Kubernetes"]
+    },
+    {
+      "day": 29,
+      "title": "Monitoring, Logging & Observability",
+      "type": "BUILD",
+      "tools": ["Python Logging", "Prometheus", "Grafana"],
+      "objectives": ["Structured logging", "Monitor latency and tool execution"]
+    },
+    {
+      "day": 31,
+      "title": "Capstone Project & Final Demo",
+      "type": "CAPSTONE",
+      "tools": ["FastAPI", "React", "LangChain", "MCP", "Docker"],
+      "objectives": ["Demonstrate enterprise application", "Showcase end-to-end architecture"]
+    }
+  ]
+}

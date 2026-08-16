@@ -1,0 +1,6 @@
+{
+  "name": "AI Technical Interview Agent",
+  "description": "An adaptive, multi-turn AI technical interview agent powered by Gemini for the ABTalks hackathon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "cand-001",
+    "name": "Aisha Rahman",
+    "role": "Frontend engineer moving into AI",
+    "daysCompleted": 26,
+    "focusAreas": ["Embeddings", "RAG", "Prompt engineering"],
+    "notes": "Strong shipping instincts, lighter on evaluation methodology."
+  },
+  {
+    "id": "cand-002",
+    "name": "Daniel Okoye",
+    "role": "Backend engineer, Python",
+    "daysCompleted": 31,
+    "focusAreas": ["Agents", "Tool calling", "Vector databases"],
+    "notes": "Completed the full cohort, built two agent projects."
+  },
+  {
+    "id": "cand-003",
+    "name": "Mei Lin",
+    "role": "Data analyst transitioning to ML",
+    "daysCompleted": 18,
+    "focusAreas": ["Fine-tuning", "Evaluation", "Data pipelines"],
+    "notes": "Rigorous with metrics, less exposure to production agents."
+  },
+  {
+    "id": "cand-004",
+    "name": "Tomás Herrera",
+    "role": "Full-stack developer",
+    "daysCompleted": 22,
+    "focusAreas": ["RAG", "Chunking strategies", "LLM APIs"],
+    "notes": "Hands-on with retrieval, still formalising prompt design."
+  }
+]
